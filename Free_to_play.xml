@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="plantilla.xsl" ?>
+<PRINCIPAL>
+    <GENEROS>
+        <GENERO TITULO= "MMO">
+            <JUEGO TITULO="Tera">
+                <PLATAFORMA>Windows</PLATAFORMA>
+                <PLATAFORMA>PS4</PLATAFORMA> 
+            </JUEGO>
+            <JUEGO TITULO="Guild Wars 2">
+                <PLATAFORMA>Windows</PLATAFORMA>
+                <PLATAFORMA>MAC</PLATAFORMA> 
+            </JUEGO>
+        </GENERO>
+        <GENERO TITULO="MOBA">
+            <JUEGO TITULO="League of Legends">
+                <PLATAFORMA>Windows</PLATAFORMA>
+                <PLATAFORMA>MAC</PLATAFORMA> 
+            </JUEGO>
+            <JUEGO TITULO="Heroes of the storm">
+                <PLATAFORMA>Windows</PLATAFORMA>
+                <PLATAFORMA>MAC</PLATAFORMA> 
+            </JUEGO>
+            <JUEGO TITULO="Dota2">
+                <PLATAFORMA>Steam</PLATAFORMA>
+            </JUEGO>
+            <JUEGO TITULO="Smite">
+                <PLATAFORMA>Steam</PLATAFORMA>
+                <PLATAFORMA>Nintendo Switch</PLATAFORMA>
+                <PLATAFORMA>PS4</PLATAFORMA>
+                <PLATAFORMA>Xbox One</PLATAFORMA>
+            </JUEGO>
+        </GENERO>
+        <GENERO TITULO="SHOOTER">
+            <JUEGO TITULO="Counter Strike Global Offensive">
+                <PLATAFORMA>Steam</PLATAFORMA>
+	    </JUEGO>
+            <JUEGO TITULO="Battlefield 5">
+                <PLATAFORMA>Steam</PLATAFORMA>
+                <PLATAFORMA>PS4</PLATAFORMA> 
+                <PLATAFORMA>Xbox One</PLATAFORMA> 
+	    </JUEGO>
+            <JUEGO TITULO="Rainbow Six Siege">
+                <PLATAFORMA>Steam</PLATAFORMA>
+                <PLATAFORMA>PS4</PLATAFORMA> 
+                <PLATAFORMA>Xbox One</PLATAFORMA> 
+	    </JUEGO>
+        </GENERO>
+        <GENERO TITULO="COOPERATIVO">
+            <JUEGO TITULO="Borderlands">
+                <PLATAFORMA>PS4</PLATAFORMA> 
+                <PLATAFORMA>PS3</PLATAFORMA> 
+                <PLATAFORMA>Xbox One</PLATAFORMA>
+                <PLATAFORMA>Xbox 360</PLATAFORMA> 
+	    </JUEGO>
+            <JUEGO TITULO="Grand Theft Auto V">
+                <PLATAFORMA>Steam</PLATAFORMA>
+                <PLATAFORMA>PS4</PLATAFORMA> 
+                <PLATAFORMA>PS3</PLATAFORMA> 
+                <PLATAFORMA>Xbox One</PLATAFORMA>
+                <PLATAFORMA>Xbox 360</PLATAFORMA> 
+	    </JUEGO>
+            <JUEGO TITULO="Rainbow Six Siege">
+                <PLATAFORMA>Steam</PLATAFORMA>
+                <PLATAFORMA>PS4</PLATAFORMA> 
+                <PLATAFORMA>Xbox One</PLATAFORMA> 
+	    </JUEGO>
+        </GENERO>
+        <GENERO TITULO="NARRATIVO">
+
+        </GENERO>
+        <GENERO TITULO="INDIE">
+        </GENERO>
+        <GENERO TITULO="ESTRATEGIA">
+        </GENERO>
+    </GENEROS>
+</PRINCIPAL>

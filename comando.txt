@@ -1,0 +1,3 @@
+Crear HTML:
+- 'xalan -in ejemplo1.xml -xsl plantilla.xsl  -out salida.html'
+

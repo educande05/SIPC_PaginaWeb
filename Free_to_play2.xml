@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="plantilla.xsl" ?>
+
+<PRINCIPAL>
+	<PLATAFORMA>
+		<CONSOLA NOMBRE = "PS3">
+			<EMPRESA>Sony</EMPRESA>
+			<SALIDA>2007</SALIDA>
+			<TIPO>Sobremesa</TIPO>
+		</CONSOLA>
+		<CONSOLA NOMBRE = "PS4">
+			<EMPRESA>Sony</EMPRESA>
+			<SALIDA>2013</SALIDA>
+			<TIPO>Sobremesa</TIPO>
+		</CONSOLA>
+		<CONSOLA NOMBRE = "XBOX360">
+			<EMPRESA>Microsoft</EMPRESA>
+			<SALIDA>2005</SALIDA>
+			<TIPO>Sobremesa</TIPO>
+		</CONSOLA>
+		<CONSOLA NOMBRE = "XBOX ONE">
+			<EMPRESA>Sony</EMPRESA>
+			<SALIDA>2013</SALIDA>
+			<TIPO>Sobremesa</TIPO>
+		</CONSOLA>
+		<CONSOLA NOMBRE = "Nintendo SWITCH">
+			<EMPRESA>Nintendo</EMPRESA>
+			<SALIDA>2017</SALIDA>
+			<TIPO>Sobremesa</TIPO>
+		</CONSOLA>
+	</PLATAFORMA>
+	
+</PRINCIPAL>

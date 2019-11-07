@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="plantilla.xsl" ?>
+<PRINCIPAL>
+	<DISPOSITIVO NOMBRE = "RaspBerry">
+		<DESCRIPCION>IOWEFWIOEFN</DESCRIPCION>
+		<PRODUCTOS NOMBRE = "Arduino 1">
+			<OVERVIEW>Este producto tiene esto de especial</OVERVIEW>
+			<PRECIO>1</PRECIO>
+			<ESPECIFICACIONES>
+				<VOLTAJE>5</VOLTAJE>
+				<CHIPSET>5</CHIPSET>
+				<ETC>ETC</ETC>	
+			<DOCUMENTACION>Guia<DOCUMENTACION/>
+			<ENLACE>Aqui enlace al producto en tienda</ENLACE>
+		</PRODUCTOS>
+		<COMUNIDAD>Enlace a proyectos de comunidad</COMUNIDAD>
+		<SOPORTE>Ayuda</SOPORTE>
+	</DISPOSITIVO>
+
+	<DISPOSITIVO NOMBRE = "Arduino">
+		<DESCRIPCION>IOWEFWIOEFN</DESCRIPCION>
+		<PRODUCTOS NOMBRE = "Arduino 1">
+			<OVERVIEW>Este producto tiene esto de especial</OVERVIEW>
+			<PRECIO>1</PRECIO>
+			<ESPECIFICACIONES>
+				<VOLTAJE>5</VOLTAJE>
+				<CHIPSET>5</CHIPSET>
+				<ETC>ETC</ETC>	
+			<DOCUMENTACION>Guia<DOCUMENTACION/>
+			<ENLACE>Aqui enlace al producto en tienda</ENLACE>
+		</PRODUCTOS>
+		<COMUNIDAD>Enlace a proyectos de comunidad</COMUNIDAD>
+		<SOPORTE>Ayuda</SOPORTE>
+	</DISPOSITIVO>
+</PRINCIPAL>

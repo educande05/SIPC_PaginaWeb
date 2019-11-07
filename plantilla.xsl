@@ -4,9 +4,17 @@
    <HTML>
         <BODY>
          <B> Encontrarás los mejores juegos free to play aquí</B>
+	<Select name = clase "status" = "required">
 
+&lt;xsl:apply-templates select="document('Free_to_play.xml')//xs:simpleType[@name = 'status']/descendant::xs:enumeration" mode="generate-options">
+
+& Lt; xsl: con-param name = "seleccionado" select = "status @" />
+
+& Lt; / xsl: apply-templates>
+
+</ Select>
          <TABLE>
-          <xsl:for-each select="PRINCIPAL/GENERO">
+          <xsl:for-each select="PRINCIPAL/NOMBRE">
           <xsl:sort order="ascending" select="@NOMBRE"/>
            <TR>
             <TD><B><xsl:value-of select="@NOMBRE"/></B>

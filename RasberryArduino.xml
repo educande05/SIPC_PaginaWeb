@@ -166,6 +166,7 @@ The Micro is based on the ATmega32U4 microcontroller featuring a built-in USB wh
 			<IO>Mini HDMI,Micro USB OTG,Micro USB power,Composite video</IO>
 			<HEADER>40 pin</HEADER>
 			<CONNECTOR>CSI camera</CONNECTOR>
+		</ESPECIFICACIONES>
 		<ENLACE>https://www.kubii.es/1401-raspberry-pi-zero-v13-kubii-3272496006973.html?src=raspberrypi</ENLACE>
 	</RASPBERRY>
 	<RASPBERRY NOMBRE = "Raspberry Pi 1 Model A+">
@@ -177,6 +178,7 @@ The Micro is based on the ATmega32U4 microcontroller featuring a built-in USB wh
 			<IO>Mini HDMI,Micro USB OTG,Micro USB power,Composite video</IO>
 			<HEADER>40 pin</HEADER>
 			<CONNECTOR>CSI camera</CONNECTOR>
+		</ESPECIFICACIONES>
 		<ENLACE>https://www.kubii.es/1401-raspberry-pi-zero-v13-kubii-3272496006973.html?src=raspberrypi</ENLACE>
 	</RASPBERRY>
 	<RASPBERRY NOMBRE = "Raspberry Pi ZERO">
@@ -188,6 +190,7 @@ The Micro is based on the ATmega32U4 microcontroller featuring a built-in USB wh
 			<IO>Mini HDMI,Micro USB OTG,Micro USB power,Composite video</IO>
 			<HEADER>40 pin</HEADER>
 			<CONNECTOR>CSI camera</CONNECTOR>
+		</ESPECIFICACIONES>
 		<ENLACE>https://www.kubii.es/1401-raspberry-pi-zero-v13-kubii-3272496006973.html?src=raspberrypi</ENLACE>
 	</RASPBERRY>
 	<RASPBERRY NOMBRE = "Raspberry Pi ZERO">
@@ -199,6 +202,7 @@ The Micro is based on the ATmega32U4 microcontroller featuring a built-in USB wh
 			<IO>Mini HDMI,Micro USB OTG,Micro USB power,Composite video</IO>
 			<HEADER>40 pin</HEADER>
 			<CONNECTOR>CSI camera</CONNECTOR>
+		</ESPECIFICACIONES>
 		<ENLACE>https://www.kubii.es/1401-raspberry-pi-zero-v13-kubii-3272496006973.html?src=raspberrypi</ENLACE>
 	</RASPBERRY>
 	<RASPBERRY NOMBRE = "Raspberry Pi ZERO">
@@ -210,6 +214,7 @@ The Micro is based on the ATmega32U4 microcontroller featuring a built-in USB wh
 			<IO>Mini HDMI,Micro USB OTG,Micro USB power,Composite video</IO>
 			<HEADER>40 pin</HEADER>
 			<CONNECTOR>CSI camera</CONNECTOR>
+		</ESPECIFICACIONES>
 		<ENLACE>https://www.kubii.es/1401-raspberry-pi-zero-v13-kubii-3272496006973.html?src=raspberrypi</ENLACE>
 	</RASPBERRY>
 	<RASPBERRY NOMBRE = "Raspberry Pi ZERO">
@@ -221,6 +226,7 @@ The Micro is based on the ATmega32U4 microcontroller featuring a built-in USB wh
 			<IO>Mini HDMI,Micro USB OTG,Micro USB power,Composite video</IO>
 			<HEADER>40 pin</HEADER>
 			<CONNECTOR>CSI camera</CONNECTOR>
+		</ESPECIFICACIONES>
 		<ENLACE>https://www.kubii.es/1401-raspberry-pi-zero-v13-kubii-3272496006973.html?src=raspberrypi</ENLACE>
 	</RASPBERRY>
 	<RASPBERRY NOMBRE = "Raspberry Pi ZERO">
@@ -232,6 +238,7 @@ The Micro is based on the ATmega32U4 microcontroller featuring a built-in USB wh
 			<IO>Mini HDMI,Micro USB OTG,Micro USB power,Composite video</IO>
 			<HEADER>40 pin</HEADER>
 			<CONNECTOR>CSI camera</CONNECTOR>
+		</ESPECIFICACIONES>
 		<ENLACE>https://www.kubii.es/1401-raspberry-pi-zero-v13-kubii-3272496006973.html?src=raspberrypi</ENLACE>
 	</RASPBERRY>
 </PRINCIPAL>

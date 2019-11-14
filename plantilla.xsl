@@ -1,45 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.1" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:template match="/">
-   <HTML>
-        <BODY>
-         <B> Encontrarás los mejores juegos free to play aquí</B>
-	<Select name = clase "status" = "required">
 
-&lt;xsl:apply-templates select="document('Free_to_play.xml')//xs:simpleType[@name = 'status']/descendant::xs:enumeration" mode="generate-options">
+<xsl:template match="/">
+  <html>
 
-& Lt; xsl: con-param name = "seleccionado" select = "status @" />
+  <head>
+    <title>Arduino_Raspberry</title>
+  </head>
 
-& Lt; / xsl: apply-templates>
 
-</ Select>
-         <TABLE>
-          <xsl:for-each select="PRINCIPAL/NOMBRE">
-          <xsl:sort order="ascending" select="@NOMBRE"/>
-           <TR>
-            <TD><B><xsl:value-of select="@NOMBRE"/></B>
-            :
-	    </TD>
-			<TD>
-			<xsl:for-each select="JUEGO">
-			<xsl:sort order="ascending" select="@TITULO"/>
-				<xsl:value-of select="@TITULO"/>
-                                <xsl:choose>
-					<xsl:when test="position() = last()">
-						.
-					</xsl:when>
-					<xsl:otherwise>
-						,
-					</xsl:otherwise>
-				</xsl:choose>
-				
-				
-			</xsl:for-each>
-			</TD>
-           </TR>
-          </xsl:for-each>
-         </TABLE>
-        </BODY>
-   </HTML>
-  </xsl:template>
- </xsl:stylesheet>
+  <body>
+    <h1 style="color:red;"><b>Productos Arduino</b></h1>
+    <xsl:for-each select="PRINCIPAL/ARDUINO">
+      <p>
+      <b><xsl:value-of select="@NOMBRE"/></b>
+      </p> 
+    </xsl:for-each>
+
+    <h1 style="color:blue;"><b>Productos Arduino_Raspberry</b></h1>
+    <xsl:for-each select="PRINCIPAL/RASPBERRY">
+      <p>
+      <b><xsl:value-of select="@NOMBRE"/></b>
+      </p>
+    </xsl:for-each>
+  </body>
+
+  </html>
+</xsl:template>
+
+</xsl:stylesheet>

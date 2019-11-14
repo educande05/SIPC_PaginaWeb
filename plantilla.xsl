@@ -17,7 +17,7 @@
       </p> 
     </xsl:for-each>
 
-    <h1 style="color:blue;"><b>Productos Arduino_Raspberry</b></h1>
+    <h1 style="color:blue;"><b>Productos Raspberry</b></h1>
     <xsl:for-each select="PRINCIPAL/RASPBERRY">
       <p>
       <b><xsl:value-of select="@NOMBRE"/></b>

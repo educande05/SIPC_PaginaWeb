@@ -1,35 +1,237 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="plantilla.xsl" ?>
-<PRINCIPAL>
-	<DISPOSITIVO NOMBRE = "RaspBerry">
-		<DESCRIPCION>IOWEFWIOEFN</DESCRIPCION>
-		<PRODUCTOS NOMBRE = "Arduino 1">
-			<OVERVIEW>Este producto tiene esto de especial</OVERVIEW>
-			<PRECIO>1</PRECIO>
-			<ESPECIFICACIONES>
-				<VOLTAJE>5</VOLTAJE>
-				<CHIPSET>5</CHIPSET>
-				<ETC>ETC</ETC>	
-			<DOCUMENTACION>Guia<DOCUMENTACION/>
-			<ENLACE>Aqui enlace al producto en tienda</ENLACE>
-		</PRODUCTOS>
-		<COMUNIDAD>Enlace a proyectos de comunidad</COMUNIDAD>
-		<SOPORTE>Ayuda</SOPORTE>
-	</DISPOSITIVO>
 
-	<DISPOSITIVO NOMBRE = "Arduino">
-		<DESCRIPCION>IOWEFWIOEFN</DESCRIPCION>
-		<PRODUCTOS NOMBRE = "Arduino 1">
-			<OVERVIEW>Este producto tiene esto de especial</OVERVIEW>
-			<PRECIO>1</PRECIO>
-			<ESPECIFICACIONES>
-				<VOLTAJE>5</VOLTAJE>
-				<CHIPSET>5</CHIPSET>
-				<ETC>ETC</ETC>	
-			<DOCUMENTACION>Guia<DOCUMENTACION/>
-			<ENLACE>Aqui enlace al producto en tienda</ENLACE>
-		</PRODUCTOS>
-		<COMUNIDAD>Enlace a proyectos de comunidad</COMUNIDAD>
-		<SOPORTE>Ayuda</SOPORTE>
-	</DISPOSITIVO>
+<PRINCIPAL>
+	<ARDUINO NOMBRE = "Arduino DUE">
+		<OVERVIEW>The Arduino Due is the first Arduino board based on a 32-bit ARM core microcontroller. With 54 digital input/output pins, 12 analog inputs, it is the perfect board for powerful larger scale Arduino projects.</OVERVIEW>
+		<PRECIO>35</PRECIO>
+		<ESPECIFICACIONES>
+			<VOLTAJE>3.3</VOLTAJE>
+			<DIOP>54</DIOP>
+			<AINPUTP>12</AINPUTP>
+			<AOUTPUTP>2</AOUTPUTP>
+			<FLASH>512KB</FLASH>
+			<SRAM>96KB</SRAM>
+			<CLOCK>84MHz</CLOCK>
+			<LENGTH>101.52</LENGTH>
+			<WIDTH>53.3</WIDTH>
+			<WEIGHT>36</WEIGHT>
+		</ESPECIFICACIONES>
+		<ENLACE>https://store.arduino.cc/due</ENLACE>
+	</ARDUINO>
+	<ARDUINO NOMBRE = "Arduino UNO REV3">
+		<OVERVIEW>The UNO is the best board to get started with electronics and coding. If this is your first experience tinkering with the platform, the UNO is the most robust board you can start playing with. The UNO is the most used and documented board of the whole Arduino family.</OVERVIEW>
+		<PRECIO>20</PRECIO>
+		<ESPECIFICACIONES>
+			<VOLTAJE>5</VOLTAJE>
+			<DIOP>14</DIOP>
+			<AINPUTP>6</AINPUTP>
+			<AOUTPUTP>0</AOUTPUTP>
+			<FLASH>32KB</FLASH>
+			<SRAM>2KB</SRAM>
+			<CLOCK>16MHz</CLOCK>
+			<LENGTH>68.6</LENGTH>
+			<WIDTH>53.4</WIDTH>
+			<WEIGHT>25</WEIGHT>
+		</ESPECIFICACIONES>
+		<ENLACE>https://store.arduino.cc/arduino-uno-rev3</ENLACE>
+	</ARDUINO>
+	<ARDUINO NOMBRE = "Arduino Leonardo with Headers">
+		<OVERVIEW>Similar to an Arduino UNO, can be recognized by computer as a mouse or keyboard.</OVERVIEW>
+		<PRECIO>18</PRECIO>
+		<ESPECIFICACIONES>
+			<VOLTAJE>5</VOLTAJE>
+			<DIOP>20</DIOP>
+			<AINPUTP>12</AINPUTP>
+			<AOUTPUTP>0</AOUTPUTP>
+			<FLASH>32KB</FLASH>
+			<SRAM>2.5KB</SRAM>
+			<CLOCK>16MHz</CLOCK>
+			<LENGTH>86.6</LENGTH>
+			<WIDTH>53.3</WIDTH>
+			<WEIGHT>20</WEIGHT>
+		</ESPECIFICACIONES>
+		<ENLACE>https://store.arduino.cc/leonardo</ENLACE>
+	</ARDUINO>
+	<ARDUINO NOMBRE = "Arduino Micro">
+		<OVERVIEW>Arduino Micro is the smallest board of the family, easy to integrate it in everyday objects to make them interactive.
+The Micro is based on the ATmega32U4 microcontroller featuring a built-in USB which makes the Micro recognisable as a mouse or keyboard.</OVERVIEW>
+		<PRECIO>18</PRECIO>
+		<ESPECIFICACIONES>
+			<VOLTAJE>5</VOLTAJE>
+			<DIOP>20</DIOP>
+			<AINPUTP>12</AINPUTP>
+			<AOUTPUTP>0</AOUTPUTP>
+			<FLASH>32KB</FLASH>
+			<SRAM>2.5KB</SRAM>
+			<CLOCK>16MHz</CLOCK>
+			<LENGTH>48</LENGTH>
+			<WIDTH>18</WIDTH>
+			<WEIGHT>13</WEIGHT>
+		</ESPECIFICACIONES>
+		<ENLACE>https://store.arduino.cc/arduino-micro</ENLACE>
+	</ARDUINO>
+	<ARDUINO NOMBRE = "Arduino Zero">
+		<OVERVIEW>Arduino Zero is a simple and powerful 32-bit extension of the platform established by the UNO. This board aims to provide a platform for innovative projects in smart IoT devices, wearable technology, high-tech automation, crazy robotics, and much more.</OVERVIEW>
+		<PRECIO>40</PRECIO>
+		<ESPECIFICACIONES>
+			<VOLTAJE>3.3</VOLTAJE>
+			<DIOP>20</DIOP>
+			<AINPUTP>6</AINPUTP>
+			<AOUTPUTP>1</AOUTPUTP>
+			<FLASH>256KB</FLASH>
+			<SRAM>32KB</SRAM>
+			<CLOCK>48MHz</CLOCK>
+			<LENGTH>68</LENGTH>
+			<WIDTH>53</WIDTH>
+			<WEIGHT>12</WEIGHT>
+		</ESPECIFICACIONES>
+		<ENLACE>https://store.arduino.cc/arduino-zero</ENLACE>
+	</ARDUINO>
+	<ARDUINO NOMBRE = "Arduino MKR1000 WiFi">
+		<OVERVIEW>Arduino MKR1000 is a powerful board that combines the functionality of the Zero and the Wi-Fi Shield. It is the ideal solution for makers wanting to design IoT projects with minimal previous experience in networking.</OVERVIEW>
+		<PRECIO>30.99</PRECIO>
+		<ESPECIFICACIONES>
+			<VOLTAJE>3.3</VOLTAJE>
+			<DIOP>8</DIOP>
+			<AINPUTP>7</AINPUTP>
+			<AOUTPUTP>1</AOUTPUTP>
+			<FLASH>256KB</FLASH>
+			<SRAM>32KB</SRAM>
+			<CLOCK>48MHz</CLOCK>
+			<LENGTH>61.5</LENGTH>
+			<WIDTH>25</WIDTH>
+			<WEIGHT>32</WEIGHT>
+		</ESPECIFICACIONES>
+		<ENLACE>https://store.arduino.cc/arduino-mkr1000-wifi</ENLACE>
+	</ARDUINO>
+	<ARDUINO NOMBRE = "Arduino Mega 2560 REV3">
+		<OVERVIEW>The MEGA 2560 is designed for more complex projects. With 54 digital I/O pins, 16 analog inputs and a larger space for your sketch it is the recommended board for 3D printers and robotics projects. This gives your projects plenty of room and opportunities.</OVERVIEW>
+		<PRECIO>35</PRECIO>
+		<ESPECIFICACIONES>
+			<VOLTAJE>5</VOLTAJE>
+			<DIOP>54</DIOP>
+			<AINPUTP>16</AINPUTP>
+			<AOUTPUTP>0</AOUTPUTP>
+			<FLASH>256KB</FLASH>
+			<SRAM>8KB</SRAM>
+			<CLOCK>16MHz</CLOCK>
+			<LENGTH>101.52</LENGTH>
+			<WIDTH>53.3</WIDTH>
+			<WEIGHT>37</WEIGHT>
+		</ESPECIFICACIONES>
+		<ENLACE>https://store.arduino.cc/arduino-mega-2560-rev3</ENLACE>
+	</ARDUINO>
+	<ARDUINO NOMBRE = "Arduino nano">
+		<OVERVIEW>The Arduino Nano is a compact board similar to the UNO.</OVERVIEW>
+		<PRECIO>20</PRECIO>
+		<ESPECIFICACIONES>
+			<VOLTAJE>5</VOLTAJE>
+			<DIOP>22</DIOP>
+			<AINPUTP>8</AINPUTP>
+			<AOUTPUTP>2</AOUTPUTP>
+			<FLASH>32KB</FLASH>
+			<SRAM>2KB</SRAM>
+			<CLOCK>16MHz</CLOCK>
+			<LENGTH>45</LENGTH>
+			<WIDTH>18</WIDTH>
+			<WEIGHT>7</WEIGHT>
+		</ESPECIFICACIONES>
+		<ENLACE>https://store.arduino.cc/arduino-nano</ENLACE>
+	</ARDUINO>
+	<ARDUINO NOMBRE = "Arduino UNO WiFi REV2">
+		<OVERVIEW>Add WiFi to your devices with the Arduino Uno WiFi. It's basically an Arduino Uno Rev3 with more kick: It comes with a brand new 8-bit microprocessor from Microchip, and an onboard IMU (Inertial Measurement Unit). As for the WiFi connection, that's made secure with the new ECC608 crypto chip accelerator.</OVERVIEW>
+		<PRECIO>38.90</PRECIO>
+		<ESPECIFICACIONES>
+			<VOLTAJE>5</VOLTAJE>
+			<DIOP>14</DIOP>
+			<AINPUTP>6</AINPUTP>
+			<AOUTPUTP>0</AOUTPUTP>
+			<FLASH>48KB</FLASH>
+			<SRAM>6KB</SRAM>
+			<CLOCK>16MHz</CLOCK>
+			<LENGTH>68.6</LENGTH>
+			<WIDTH>53.4</WIDTH>
+			<WEIGHT>25</WEIGHT>
+		</ESPECIFICACIONES>
+		<ENLACE>https://store.arduino.cc/arduino-mkr1000-wifi</ENLACE>
+	</ARDUINO>
+
+	<RASPBERRY NOMBRE = "Raspberry Pi ZERO">
+		<OVERVIEW>The Raspberry Pi Zero is half the size of a Model A+, with twice the utility. A tiny Raspberry Pi that’s affordable enough for any project!</OVERVIEW>
+		<PRECIO>5.40</PRECIO>
+		<ESPECIFICACIONES>
+			<CLOCK>1GHz</CLOCK>
+			<RAM>512MB</RAM>
+			<IO>Mini HDMI,Micro USB OTG,Micro USB power,Composite video</IO>
+			<HEADER>40 pin</HEADER>
+			<CONNECTOR>CSI camera</CONNECTOR>
+		<ENLACE>https://www.kubii.es/1401-raspberry-pi-zero-v13-kubii-3272496006973.html?src=raspberrypi</ENLACE>
+	</RASPBERRY>
+	<RASPBERRY NOMBRE = "Raspberry Pi 1 Model A+">
+		<OVERVIEW>The Model A+ is the low-cost variant of the Raspberry Pi. It replaced the original Model A in November 2014.</OVERVIEW>
+		<PRECIO>5.40</PRECIO>
+		<ESPECIFICACIONES>
+			<CLOCK>1GHz</CLOCK>
+			<RAM>512MB</RAM>
+			<IO>Mini HDMI,Micro USB OTG,Micro USB power,Composite video</IO>
+			<HEADER>40 pin</HEADER>
+			<CONNECTOR>CSI camera</CONNECTOR>
+		<ENLACE>https://www.kubii.es/1401-raspberry-pi-zero-v13-kubii-3272496006973.html?src=raspberrypi</ENLACE>
+	</RASPBERRY>
+	<RASPBERRY NOMBRE = "Raspberry Pi ZERO">
+		<OVERVIEW>The Raspberry Pi Zero is half the size of a Model A+, with twice the utility. A tiny Raspberry Pi that’s affordable enough for any project!</OVERVIEW>
+		<PRECIO>5.40</PRECIO>
+		<ESPECIFICACIONES>
+			<CLOCK>1GHz</CLOCK>
+			<RAM>512MB</RAM>
+			<IO>Mini HDMI,Micro USB OTG,Micro USB power,Composite video</IO>
+			<HEADER>40 pin</HEADER>
+			<CONNECTOR>CSI camera</CONNECTOR>
+		<ENLACE>https://www.kubii.es/1401-raspberry-pi-zero-v13-kubii-3272496006973.html?src=raspberrypi</ENLACE>
+	</RASPBERRY>
+	<RASPBERRY NOMBRE = "Raspberry Pi ZERO">
+		<OVERVIEW>The Raspberry Pi Zero is half the size of a Model A+, with twice the utility. A tiny Raspberry Pi that’s affordable enough for any project!</OVERVIEW>
+		<PRECIO>5.40</PRECIO>
+		<ESPECIFICACIONES>
+			<CLOCK>1GHz</CLOCK>
+			<RAM>512MB</RAM>
+			<IO>Mini HDMI,Micro USB OTG,Micro USB power,Composite video</IO>
+			<HEADER>40 pin</HEADER>
+			<CONNECTOR>CSI camera</CONNECTOR>
+		<ENLACE>https://www.kubii.es/1401-raspberry-pi-zero-v13-kubii-3272496006973.html?src=raspberrypi</ENLACE>
+	</RASPBERRY>
+	<RASPBERRY NOMBRE = "Raspberry Pi ZERO">
+		<OVERVIEW>The Raspberry Pi Zero is half the size of a Model A+, with twice the utility. A tiny Raspberry Pi that’s affordable enough for any project!</OVERVIEW>
+		<PRECIO>5.40</PRECIO>
+		<ESPECIFICACIONES>
+			<CLOCK>1GHz</CLOCK>
+			<RAM>512MB</RAM>
+			<IO>Mini HDMI,Micro USB OTG,Micro USB power,Composite video</IO>
+			<HEADER>40 pin</HEADER>
+			<CONNECTOR>CSI camera</CONNECTOR>
+		<ENLACE>https://www.kubii.es/1401-raspberry-pi-zero-v13-kubii-3272496006973.html?src=raspberrypi</ENLACE>
+	</RASPBERRY>
+	<RASPBERRY NOMBRE = "Raspberry Pi ZERO">
+		<OVERVIEW>The Raspberry Pi Zero is half the size of a Model A+, with twice the utility. A tiny Raspberry Pi that’s affordable enough for any project!</OVERVIEW>
+		<PRECIO>5.40</PRECIO>
+		<ESPECIFICACIONES>
+			<CLOCK>1GHz</CLOCK>
+			<RAM>512MB</RAM>
+			<IO>Mini HDMI,Micro USB OTG,Micro USB power,Composite video</IO>
+			<HEADER>40 pin</HEADER>
+			<CONNECTOR>CSI camera</CONNECTOR>
+		<ENLACE>https://www.kubii.es/1401-raspberry-pi-zero-v13-kubii-3272496006973.html?src=raspberrypi</ENLACE>
+	</RASPBERRY>
+	<RASPBERRY NOMBRE = "Raspberry Pi ZERO">
+		<OVERVIEW>The Raspberry Pi Zero is half the size of a Model A+, with twice the utility. A tiny Raspberry Pi that’s affordable enough for any project!</OVERVIEW>
+		<PRECIO>5.40</PRECIO>
+		<ESPECIFICACIONES>
+			<CLOCK>1GHz</CLOCK>
+			<RAM>512MB</RAM>
+			<IO>Mini HDMI,Micro USB OTG,Micro USB power,Composite video</IO>
+			<HEADER>40 pin</HEADER>
+			<CONNECTOR>CSI camera</CONNECTOR>
+		<ENLACE>https://www.kubii.es/1401-raspberry-pi-zero-v13-kubii-3272496006973.html?src=raspberrypi</ENLACE>
+	</RASPBERRY>
 </PRINCIPAL>
